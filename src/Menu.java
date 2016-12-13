@@ -15,13 +15,13 @@ public class Menu {
         javaCafeMenu.add(new MenuItem(2, "Breakfast Burrito", 9.99, 1));
         javaCafeMenu.add(new MenuItem(3, "Pancakes", 9.99, 1));
         javaCafeMenu.add(new MenuItem(4, "Hash Browns", 9.99, 1));
-        javaCafeMenu.add(new MenuItem(5, "", 9.99, 1));
+        javaCafeMenu.add(new MenuItem(5, "Breakfast Casserole", 9.99, 1));
         // Lunch Menu Items
-        javaCafeMenu.add(new MenuItem(6, "Brussels Sprouts", 9.99, 2));
-        javaCafeMenu.add(new MenuItem(7, "Brussels Sprouts", 9.99, 2));
-        javaCafeMenu.add(new MenuItem(8, "Brussels Sprouts", 9.99, 2));
-        javaCafeMenu.add(new MenuItem(9, "Brussels Sprouts", 9.99, 2));
-        javaCafeMenu.add(new MenuItem(10, "Brussels Sprouts", 9.99, 2));
+        javaCafeMenu.add(new MenuItem(6, "BLT", 9.99, 2));
+        javaCafeMenu.add(new MenuItem(7, "Turkey Ceasar Warp", 9.99, 2));
+        javaCafeMenu.add(new MenuItem(8, "Chicken Ceasar Wrap", 9.99, 2));
+        javaCafeMenu.add(new MenuItem(9, "Macaroni and Cheese", 9.99, 2));
+        javaCafeMenu.add(new MenuItem(10, "Side Salad", 9.99, 2));
         // Dinner Menu Items
         javaCafeMenu.add(new MenuItem(11, "Bruschetta", 12.99, 3));
         javaCafeMenu.add(new MenuItem(12, "Fried Oysters", 16.99, 3));
