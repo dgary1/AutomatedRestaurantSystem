@@ -10,7 +10,7 @@ public class CriteriaLunch implements CriteriaInterface {
         List<MenuItem> lunchMenuItems = new ArrayList<MenuItem>();
 
         for (MenuItem item : items) {
-            if (item.getClassification().equalsIgnoreCase("Lunch")) {
+            if (item.getClassification() == 2) {
                 lunchMenuItems.add(item);
             }
         }

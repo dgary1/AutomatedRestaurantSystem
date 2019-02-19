@@ -21,21 +21,21 @@ public class SubmitOrder implements CommandInterface {
         a.setOrders(order);
         while(choice != 9 && choice > 0) {
             switch(choice) {
-                case 1: a.getOrders().addOrders(new MenuItem(1, "Bruschetta", 12.99));
+                case 1: a.getOrders().addOrders(new MenuItem(1, "Bruschetta", 12.99, 2));
                     break;
-                case 2: a.getOrders().addOrders(new MenuItem(2, "Bruschetta", 12.99));
+                case 2: a.getOrders().addOrders(new MenuItem(2, "Lobster Dinner", 12.99, 3));
                     break;
-                case 3: a.getOrders().addOrders(new MenuItem(3, "Bruschetta", 12.99));
+                case 3: a.getOrders().addOrders(new MenuItem(3, "Eggs & Bacon", 12.99, 1));
                     break;
-                case 4: a.getOrders().addOrders(new MenuItem(4, "Bruschetta", 12.99));
+                case 4: a.getOrders().addOrders(new MenuItem(4, "Toast", 12.99, 1));
                     break;
-                case 5: a.getOrders().addOrders(new MenuItem(5, "Bruschetta", 12.99));
+                case 5: a.getOrders().addOrders(new MenuItem(5, "Turkey Sandwich", 12.99, 2));
                     break;
-                case 6: a.getOrders().addOrders(new MenuItem(6, "Bruschetta", 12.99));
+                case 6: a.getOrders().addOrders(new MenuItem(6, "Macaroni", 12.99, 3));
                     break;
-                case 7: a.getOrders().addOrders(new MenuItem(7, "Bruschetta", 12.99));
+                case 7: a.getOrders().addOrders(new MenuItem(7, "S'mores", 12.99, 2));
                     break;
-                case 8: a.getOrders().addOrders(new MenuItem(8, "Bruschetta", 12.99));
+                case 8: a.getOrders().addOrders(new MenuItem(8, "Fruit Salad", 12.99, 1));
                     break;
                 default: System.out.println("Whoops! Not an option. Please re-enter.");
                     break;

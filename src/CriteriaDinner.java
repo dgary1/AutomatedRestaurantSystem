@@ -8,7 +8,7 @@ public class CriteriaDinner implements CriteriaInterface {
     public List<MenuItem> meetCriteria(List<MenuItem> items) {
         List<MenuItem> dinnerLunchMenu = new ArrayList<MenuItem>();
         for (MenuItem item : items) {
-            if (item.getClassification().equalsIgnoreCase("Dinner")) {
+            if (item.getClassification() == 3) {
                 dinnerLunchMenu.add(item);
             }
         }
