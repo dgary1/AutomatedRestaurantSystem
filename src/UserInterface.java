@@ -12,7 +12,7 @@ public class UserInterface {
         System.out.println("We're very pleased you decided\nto join us today!");
         menu();
         choice = getInt(g);
-        while (choice != 5 && choice > 0) {
+        while (choice != 4 && choice > 0) {
             switch (choice) {
                 case 1:
                     SystemInterface.getMenu();
@@ -23,7 +23,7 @@ public class UserInterface {
                 case 3:
                     SystemInterface.getTab();
                     System.out.println("************PAID************");
-                    System.out.println("Thank you for dining in at Java Café!\nHave a good one!");
+                    System.out.println("Thank you for dining in at Java Café!\nThis tab is now closed. \n");
                     break;
                 default:
                     System.out.println("Whoops! Thats not an option!\nPlease re-enter: ");
@@ -39,7 +39,7 @@ public class UserInterface {
         System.out.println("1.) Display Menu");
         System.out.println("2.) Submit an Order");
         System.out.println("3.) Receive Tab");
-        System.out.println("5.) Exit");
+        System.out.println("4.) Exit");
         System.out.print("Choice: ");
     }
     public static int getInt (String g){
