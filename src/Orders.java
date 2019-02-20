@@ -16,10 +16,8 @@ public class Orders {
         ordersList.add(i);
     }
     public void print() {
-        int i = 0;
         for(MenuItem m: ordersList) {
             System.out.println(m.getDescription());
-            i++;
         }
     }
 }

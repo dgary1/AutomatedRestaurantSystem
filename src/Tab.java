@@ -16,8 +16,7 @@ public class Tab {
         int i = 0;
         System.out.println("***********Tab*********");
         double total = getTotal();
-        System.out.println();
-        System.out.format("Your Total: $%.2f", total);
+        System.out.format("\nYour Total: $%.2f", total);
         System.out.println();
     }
     public double getTotal() {
