@@ -69,5 +69,6 @@ public class SubmitOrder implements CommandInterface {
             System.out.print("Error! Incorrect data type! Enter an integer: ");
         }
         return input.nextInt();
+
     }
 }
